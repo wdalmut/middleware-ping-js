@@ -1,0 +1,20 @@
+{
+  "name": "@wdalmut/ping",
+  "version": "1.0.0",
+  "description": "Add a Ping middleware",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wdalmut/middleware-ping-js.git"
+  },
+  "author": "Walter Dal Mut <walter.dalmut@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "jasmine": "^3.4.0",
+    "supertest": "^4.0.2"
+  }
+}
